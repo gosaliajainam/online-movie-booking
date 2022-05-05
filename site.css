@@ -1,0 +1,101 @@
+body
+
+{
+color: #464646;
+font-weight: bold;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+
+}
+
+.parent-container
+{
+width: 50%
+height: 50%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8386db+1,5057d8+27,383de0+51,383de0+51,383ee2+70,161ae5+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8386db+1,5057d8+44,383de0+65,383ee2+81,383ee2+81,161ae5+100 */
+background: url(imagyyy.jpg); /* Old browsers */
+
+opacity: 0.9;
+}
+
+.loginholder
+{
+padding: 20px 5px 25px 5px;
+background-color: #fff;
+display: inline-block;
+}
+
+.inputbox
+{
+border: 1px solid #464646;
+padding: 5px;
+width: 300px;
+color: #464646;
+background-color: #fff;
+border-radius: 5px;
+transition: all 0.5s;
+font-weight: normal;
+}
+
+.inputbox:focus
+{
+border: 1px solid blue;
+padding: 5px;
+background-color: white;
+color: blue;
+font-weight: bold;
+}
+
+h2
+{
+padding: 0px;
+margin: 0px;
+}
+
+.btn-normal
+{
+width: 145px;
+padding: 5px 35px;
+color: #fff;
+transition: all 0.5s;
+border-radius: 5px;
+border: 2px solid blue;
+background-color: blue;
+font-weight: bold;
+cursor: pointer;
+}
+
+.btn-normal:hover, .btn-normal:focus
+{
+color: blue;
+border: 2px solid blue;
+background-color: white;
+text-decoration: none;
+}
+
+.forgetpassword
+{
+font-weight: bold;
+color: blue;
+}
+
+.forgetpassword:hover, .forgetpassword:focus
+{
+color: black;
+}
+
+.btn-normal-logo
+{
+background-color: white;
+border: 1px solid #464646;
+color: #464646;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.btn-normal-logo:focus, .btn-normal-logo:hover
+{
+border: 1px solid blue;
+color: blue;
+}
