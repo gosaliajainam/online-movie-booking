@@ -17,9 +17,7 @@
         </div>
         
         <div id="mobile-menu-wrap"></div>
-        <div class="offcanvas__text">
-            <p>jainamgosalia48@gmail.com harshu69@gmail.com</p>
-        </div>
+        
     </div>
     <!-- Offcanvas Menu End -->
 
@@ -29,9 +27,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-7">
-                        <div class="header__top__left">
-                            <p>Jainamgosalia48@gmail.com  &nbsp; &nbsp; &nbsp; &nbsp;harshu69@gmail.com</p>
-                        </div>
+                        
                     </div>
                     <?php
                     include_once "Database.php";
