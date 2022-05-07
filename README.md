@@ -7,7 +7,7 @@ I doveloped this project using Core PHP,HTML,JavaScript,CSS,Bootstrap.
 
 # Screenshot
 
-#1. Home page #
+# 1. Home page #
 ![home1](https://user-images.githubusercontent.com/104883953/167260990-670d3197-5c62-44bc-b821-fcc8d0efd36d.jpg)
 ![home2](https://user-images.githubusercontent.com/104883953/167261156-947f1206-6d2f-48c5-b3ba-319ff50b2e95.jpg)
 
