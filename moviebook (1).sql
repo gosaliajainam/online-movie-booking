@@ -105,11 +105,11 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `uid`, `movie`, `show_time`, `seat`, `totalseat`, `price`, `payment_date`, `booking_date`, `card_name`, `card_number`, `ex_date`, `cvv`, `custemer_id`) VALUES
-(1, 1, 'Chaal Jeevi Laiye', '15:00', 'G1,G2,D1,D2', '4', '500', 'Wed-09-21 ', 'Thu-09-21 ', 'harsh d.', '7896', '2021-09-30', 789, 1869901767),
-(2, 1, 'Tanaji', '15:15', 'F7,F8,E7,E8,A7,A8', '6', '1200', 'Thu-09-21 ', 'Fri-09-21 ', 'HARSH D GOSALIA', '145260', '2021-09-30', 349, 1890244096),
-(3, 2, 'Chaal Jeevi Laiye', '15:00', 'I5,I6,H5,H6,G5,G6', '6', '600', 'Thu-09-21 ', 'Fri-09-21 ', 'HARSHIT JAKADIA', '45456845565', '2021-10-23', 455, 560041981),
-(4, 3, 'Chaal Jeevi Laiye', '15:00', 'I7,I8', '2', '200', 'Thu-09-21 ', 'Fri-10-21 ', 'linaben', '545656', '2021-09-29', 545, 447698228),
-(5, 3, 'Chaal Jeevi Laiye', '18:15', 'G9', '1', '100', 'Thu-09-21 ', 'Fri-10-21 ', 'linaben', '565464', '2021-09-10', 655, 2080652377);
+(1, 1, 'Chaal Jeevi Laiye', '15:00', 'G1,G2,D1,D2', '4', '500', 'Wed-09-21 ', 'Thu-09-21 ', 'pratik d', '7896', '2021-09-30', 789, 1869901767),
+(2, 1, 'Tanaji', '15:15', 'F7,F8,E7,E8,A7,A8', '6', '1200', 'Thu-09-21 ', 'Fri-09-21 ', 'pratik d', '145260', '2021-09-30', 349, 1890244096),
+(3, 2, 'Chaal Jeevi Laiye', '15:00', 'I5,I6,H5,H6,G5,G6', '6', '600', 'Thu-09-21 ', 'Fri-09-21 ', 'parthiv', '45456845565', '2021-10-23', 455, 560041981),
+(4, 3, 'Chaal Jeevi Laiye', '15:00', 'I7,I8', '2', '200', 'Thu-09-21 ', 'Fri-10-21 ', 'rushabh', '545656', '2021-09-29', 545, 447698228),
+(5, 3, 'Chaal Jeevi Laiye', '18:15', 'G9', '1', '100', 'Thu-09-21 ', 'Fri-10-21 ', 'rushabh', '565464', '2021-09-10', 655, 2080652377);
 
 -- --------------------------------------------------------
 
@@ -132,59 +132,7 @@ INSERT INTO `feedback` (`id`, `name`, `email`, `massage`) VALUES
 (1, '', '', ''),
 (2, '', '', ''),
 (3, 'ttretef', 'erteghh', 'terthrgryt'),
-(4, 'sge', '', ''),
-(5, 'ggg', '', ''),
-(6, 'ggger', '', ''),
-(7, 'gergterf', '', ''),
-(8, 'r', 'rtr', 'tret'),
-(9, 'dfg', '', ''),
-(10, 'ewrtgefg', '', ''),
-(11, 'utyutygbj', 'uutyuhh', ''),
-(12, 'hii', 'how are you', 'ehat do you'),
-(13, 'hgfghfg', '', ''),
-(14, 'i8iyj', '', ''),
-(15, 'sgrgef', '', ''),
-(16, 'ghb', '', ''),
-(17, 'geghet', '', ''),
-(18, 'hrtjyrd', '', ''),
-(19, 'gehgh', 'ghktug', 'k7hfghfjtyuy'),
-(20, 'dgdfgrthrt', '', ''),
-(21, 'gegrtv', '', ''),
-(22, 'fsdfgw', '', ''),
-(23, 'gegfvf', '', ''),
-(24, 'hrtvft', 'gdfgf', 'fdf'),
-(25, '', '', ''),
-(26, '', '', ''),
-(27, '', '', ''),
-(28, '', '', ''),
-(29, '', '', ''),
-(30, '', '', ''),
-(31, '', '', ''),
-(32, '', '', ''),
-(33, '', '', ''),
-(34, '', '', ''),
-(35, '', '', ''),
-(36, '', '', ''),
-(37, '', '', ''),
-(38, '', '', ''),
-(39, '', '', ''),
-(40, '', '', ''),
-(41, '', '', ''),
-(42, '', '', ''),
-(46, 'harsh', 'harsh@gmail.com', 'fffe yth rthyrt'),
-(44, 'John Smith', 'gfhrgfdg/@', 'fewrfdcvdrg'),
-(47, 'gerger', 'hjtj', 'fsdfsdfr'),
-(48, 'gerger', 'ergergwey', 'sfdsadf'),
-(49, 'harsh', 'harsh@gmail.com', 'dfge rtherr4'),
-(50, '', '', ''),
-(51, '', '', ''),
-(52, '', '', ''),
-(53, '', '', ''),
-(54, '', '', ''),
-(55, 'John Smith', 'gsa@gmail.com', 'jggfmigfjj cmfgjmcj fkj'),
-(56, '', '', ''),
-(57, '', '', ''),
-(58, 'ger', 'harsh@gmail.com', 'hjjjmnmhj');
+
 
 -- --------------------------------------------------------
 
@@ -231,11 +179,11 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `email`, `mobile`, `city`, `password`, `image`) VALUES
-(1, 'HARSH D. GOSALIA', 'harsh1', 45789, 'Surendranagar', '4550', ''),
-(2, 'HARSHIT JAKADIYA', 'DFDFDSFDSFDF', 2147483647, 'WADHWAN', '78963', ''),
-(3, 'linaben', 'lina@gmail.com', 98875215, 'joravarnagar', '147852', ''),
-(4, 'dsdfds', 'dfgdf@gdf.cd', 1234567890, 'fggfrg', '0', ''),
-(5, 'Hiteshbhai', 'hitesh@gmail.com', 2147483647, 'surat', 'hitesh', 'eye candy wallpapers 6 by deadpxl.jpg');
+(1, 'pratik', 'prati@gmail.com', 4578945612, 'Surendranagar', '4550', ''),
+(2, 'parthiv', 'parthi@gmail.com', 2147483647, 'WADHWAN', '78963', ''),
+(3, 'rushabh', 'rushab@gmail.com', 1198875215, 'joravarnagar', '147852', ''),
+(4, 'hetanshi', 'hetansh@gmail.com', 1234567890, 'fggfrg', '0', ''),
+(5, 'dharmin', 'dharm@gmail.com', 2147483647, 'surat', 'hitesh', 'eye candy wallpapers 6 by deadpxl.jpg');
 
 --
 -- Indexes for dumped tables
