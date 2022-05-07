@@ -7,6 +7,13 @@ I doveloped this project using Core PHP,HTML,JavaScript,CSS,Bootstrap.
 
 # Screenshot
 
-!. Home page
-![image](https://user-images.githubusercontent.com/104883953/167071811-7164d26e-e9fb-45e4-862c-68f1c18b07d2.png)
+1. Home page
+![home1](https://user-images.githubusercontent.com/104883953/167260990-670d3197-5c62-44bc-b821-fcc8d0efd36d.jpg)
+![home2](https://user-images.githubusercontent.com/104883953/167260997-d3a5756d-c8e3-4d50-8b4e-c3caab9911dd.jpg)
+
+2. All Movie
+![all movie](https://user-images.githubusercontent.com/104883953/167261026-0c6d020e-7963-4e33-85e9-97b2b118d2e6.jpg)
+
+3. Seat Book
+![seat book](https://user-images.githubusercontent.com/104883953/167261039-e45bb084-ed5a-4b43-b8d2-132a16100d41.jpg)
 
