@@ -74,7 +74,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`, `is_active`) VALUES
-(1, 'Jainam', 'jainmdg@gmail.com', 'admin', '1'),
+(1, 'Jainam', 'jainmdg@gmail.com', 'admin', '1');
 
 
 -- --------------------------------------------------------
@@ -132,7 +132,7 @@ INSERT INTO `feedback` (`id`, `name`, `email`, `massage`) VALUES
 (1, 'pratik', 'prati@gmail.com', 'Inox Theatre is widely use now days.'),
 (2, 'parth', 'part@gmail.com', 'You can easily book your Tickets anywhere in city .'),
 (3, 'vrushti', 'vrusht@gmail.com', 'you easily choose your sheets.'),
-(2, 'yash', 'yas@gmail.com', 'Also customer service is vary good.');
+(4, 'yash', 'yas@gmail.com', 'Also customer service is vary good.');
 
 -- --------------------------------------------------------
 
