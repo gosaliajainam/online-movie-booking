@@ -69,7 +69,7 @@
             $movie=$_GET['movie'];
             $date= date("Y-m-d");
 
-            $result = mysqli_query($conn,"SELECT * FROM customers WHERE show_time = '".$time."' && movie = '".$movie."'payment_date = '".$date."'");
+            $result = mysqli_query($conn,"SELECT * FROM customers WHERE show_time = '".$time."' && movie = '".$movie."' && payment_date = '".$date."'");
 
       ?><form method="post"><input type="hidden" name="t1" value="<?php      
       while($row = mysqli_fetch_array($result)) {
