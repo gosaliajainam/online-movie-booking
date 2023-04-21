@@ -177,8 +177,8 @@ if (!isset($_SESSION['uname'])) {
                                 <div class="seatCharts-container">
            
                                              <div class="front">
-                                                <font text-align="left">&nbsp;&nbsp;&nbsp;Amount Payble: </font>
-                                                <font text-align="right">Rs.<?php echo $price;?>/-</font>
+                                                <font text-align="left">&nbsp;&nbsp;&nbsp;Total: </font>
+                                                <font text-align="right">$<?php echo $price;?></font>
                                             </div>
                                 </div>
                             </div>

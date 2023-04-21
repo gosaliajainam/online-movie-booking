@@ -31,7 +31,7 @@
                             <li><a href="allmovie.php">Drama</a></li>
                             <li><a href="allmovie.php">Comedy</a></li>
                             <li><a href="allmovie.php">History</a></li>
-                            <li><a href="allmovie.php">Hrror</a></li>
+                            <li><a href="allmovie.php">Horror</a></li>
                         </ul>
                     </div>
                 </div>
@@ -52,11 +52,11 @@
                 <div class="col-lg-12 text-center">
                     <div class="footer__copyright__text">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p>Copyright ©
+                        <p>Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script>-2020 
-                            This project devlope by Gainam Gosalia Mo. 8460502720
+                            </script>
+                            This project develope by Group 10
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>

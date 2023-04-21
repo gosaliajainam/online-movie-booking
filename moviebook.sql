@@ -47,14 +47,13 @@ CREATE TABLE `add_movie` (
 --
 
 INSERT INTO `add_movie` (`id`, `movie_name`, `directer`, `release_date`, `categroy`, `language`, `you_tube_link`, `show`, `action`, `decription`, `image`, `status`) VALUES
-(9, 'Avengers', 'Kevin Feige', 'April 11, 2012', 'Scince', 'English', 'https://www.youtube.com/embed/eOrNdBpGMv8', '21:00', 'running', '                ', 'aven.jpg', 1),
-(10, 'Rampage', 'Brad Peyton', '13 April 2018', 'Adventure ', 'Hindi', '', '', 'upcoming', '                                Jumanji is a 1995 American fantasy adventure film directed by Joe Johnston from a screenplay by Jonathan Hensleigh, Greg Taylor, and Jim Strain. Loosely based on Chris Van Allsburg\'s picture book of the same name, the film is the first installment of the Jumanji franc', 'rampage.jpg', 1),
-(13, 'Chaal Jeevi Laiye', 'Vipul Mehta', 'Jan 7, 2019', 'Drama', 'Gujarati', 'https://www.youtube.com/embed/y1NoFZPVTr0', '15:00,18:15', 'running', '                Chaal Jeevi Laiye is a story of a Father-Son’s unplanned journey to escape a workaholic existence. The duo, Aditya Parikh and his father Bipin Chandra Parikh explore the meaning of life as they meet a stranger traveler named Ketki, who takes them on a journey of surprises and realiza', 'chaal-jivi-laiye.jpg', 1),
-(14, 'Tanaji', 'Om Raut', '10th January 2020.', ' Historical', 'Hindi', 'https://www.youtube.com/embed/cffAGIYTEHU', '18:00,15:15', 'running', '                Gulshan Kumar, T-Series & Ajay Devgn ffilms Presents official trailer of the most awaited bollywood movie TANHAJI -THE UNSUNG WARRIOR in 3D, Directed by Om Raut, will release on 10th January 2020.\r\nTanhaji- The Unsung Warrior is an Indian biographical period drama film based on the l', 'tanaji.jpeg', 1),
-(15, 'Playing With Fire ', 'Andrea Sedlackova', '6 November 2019', 'Comedy', 'English', 'https://www.youtube.com/embed/fd5GlZUpfaM', '21:15', 'running', '                Playing with Fire is a 2019 American family comedy film directed by Andy Fickman from a screenplay by Dan Ewen and Matt Lieberman based on a story by Ewen. The film stars John Cena, Keegan-Michael Key, John Leguizamo, Dennis Haysbert, Brianna Hildebrand and Judy Greer, and follows a ', 'movieposter_en.jpg', 1),
-(16, 'Golmaal Again', 'Rohit Shetty', '20 October 2017', 'Action', 'Hindi', 'https://www.youtube.com/embed/VgQUwsUHdqc', '', 'upcoming', 'Five orphan men return to the orphanage they grew up in to attend their mentor\'s funeral. However, they encounter the ghost of their childhood friend, Khushi, and help her attain salvation.', 'golmaal_again.jpg', 1),
-(17, 'Shreshaah', 'Vishnuvardhan', '12 August 2021', 'Biographical War', 'Hindi', 'https://www.youtube.com/embed/Q0FTXnefVBA', '', 'upcoming', 'The life of Indian army captain Vikram Batra, awarded with the Param Vir Chakra, India\'s highest award for valour for his actions during the 1999 Kargil War.', 'shershah.jpg', 1);
-
+(7, 'Avengers', 'Kevin Feige', 'April 11, 2012', 'Scince', 'English', 'https://www.youtube.com/embed/eOrNdBpGMv8', '21:00', 'running', '', 'aven.jpg', 1),
+(9, 'Rampage', 'Brad Peyton', '13 April 2018', 'Adventure ', 'English', '', '', 'upcoming', 'Jumanji is a 1995 American fantasy adventure film directed by Joe Johnston from a screenplay by Jonathan Hensleigh, Greg Taylor, and Jim Strain. Loosely based on Chris Van Allsburg\'s picture book of the same name, the film is the first installment of the Jumanji franc', 'rampage.jpg', 1),
+(10, 'Playing With Fire ', 'Andrea Sedlackova', '6 November 2019', 'Comedy', 'English', 'https://www.youtube.com/embed/fd5GlZUpfaM', '21:15', 'running', 'Playing with Fire is a 2019 American family comedy film directed by Andy Fickman from a screenplay by Dan Ewen and Matt Lieberman based on a story by Ewen. The film stars John Cena, Keegan-Michael Key, John Leguizamo, Dennis Haysbert, Brianna Hildebrand and Judy Greer, and follows a ', 'movieposter_en.jpg', 1),
+(11, 'The Super Mario Bros. Movie', 'Animation', 'April 7, 2023', '', 'English', 'https://www.youtube.com/embed/TnGl01FkMMo', '15:00', 'running', '', 'mario.jpg', 1),
+(13, 'The Angry Birds Movie 2', 'Animation', 'August 14, 2019', '', 'English', 'https://www.youtube.com/embed/LLLPH6DgMB4', '18:00', 'running', '', 'angry-birds-2.jpg', 1),
+(15, 'Elemental', 'Peter Sohn', 'June 16, 2023', 'Animation', 'English', 'https://www.youtube.com/embed/hXzcyx9V0xw', '', 'upcoming', '', 'elemental.jpeg'),
+(17,'Spider-Man: Across the Spider-Verse', '', 'June 2, 2023', 'Animation', 'English', 'https://www.youtube.com/embed/kJrYAZNETpM', '', 'upcoming', '', 'spiderman')
 -- --------------------------------------------------------
 
 --
@@ -74,7 +73,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`, `is_active`) VALUES
-(1, 'Jainam', 'jainmdg@gmail.com', 'admin', '1');
+(1, 'Admin', 'admin@gmail.com', 'admin', '1');
 
 
 -- --------------------------------------------------------
